@@ -1,5 +1,6 @@
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 960px;
 }
 
 p {
@@ -53,4 +54,5 @@ footer {
 #bio-pic {
     float: left;
     padding: 0px 20px 10px 0px;
+    margin: 0px 0px 0px 10px;
 }
