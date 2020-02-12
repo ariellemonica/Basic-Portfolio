@@ -1,9 +1,9 @@
 * { margin:0;}
 
 /* Stuff left to do:
-1 - figure out the spacing in-between paragraphs
-2 - figure out the background image - why isn't it showing?
-3 - real links for the navigation text*/
+3 - real links for the navigation text
+4 - Contact Form
+5 - Gallery stuff*/
 
 body {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -24,20 +24,27 @@ h1, h2, h3, h4, h5, h6 {
     color: #4aaaa5;
 }
 
-header {
+.header-wrap {
     background-color: white;
     border-color: #cccccc;
     border-style: solid;
     border-width: 0px 0px 2px 0px;
+}
+
+header {
+    background-color: white;
     width: 960px;
+    overflow: auto;
+    clear: both;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
     color: white;
     padding: 25px;
     background-color: #4aaaa5;
-    width: 25%;
-    margin: 5px 10px 0px 400px;
+    margin: 5px 10px 0px 100px;
     text-align: center;
     float: left;
 }
@@ -49,10 +56,11 @@ h2 {
     padding: 10px;
 }
 
-.navigation {
-    float: left;
+nav {
+    float: right;
     margin: 50px 0px 0px 0px;
-    text-align: bottom;
+    position: relative;
+    right: 0px;
 }
 
 .main-content {
@@ -64,8 +72,9 @@ h2 {
     padding: 10px;
     line-height: 1.6;
     width: 960px;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin: 50px auto 50px auto;
 }
 
 footer {
