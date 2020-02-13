@@ -111,12 +111,50 @@ nav {
     clear: both;
 }
 
+.contact-form {
+    padding: 10px;
+    color: #777777;
+}
+
 #bio-pic {
     float: left;
     padding: 0px 20px 10px 0px;
     margin: 5px 0px 0px 10px;
 }
 
+
+input[type=text] {
+    border: 1px solid #777777;
+    border-radius: 4px;
+    width: 100%;
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    color: #777777;
+}
+
+input[type=email] {
+    border: 1px solid #777777;
+    border-radius: 4px;
+    width: 100%;
+    padding: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+}
+
+.submit input[type=submit]{
+    background-color: #4aaaa5;
+    color: white;
+    width: 100px;
+    height: 30px;
+    margin: 8px 0px; 
+}
+
+#message-text {
+    padding: 100px;
+}
 
 footer {
     color: white; 
